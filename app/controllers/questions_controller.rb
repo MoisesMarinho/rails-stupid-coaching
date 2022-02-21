@@ -1,5 +1,4 @@
-class QuestionController < ApplicationController
-
+class QuestionsController < ApplicationController
   def ask; end
 
   def answer
@@ -31,4 +30,6 @@ class QuestionController < ApplicationController
       ""
     end
   end
+
+  def index; end
 end
